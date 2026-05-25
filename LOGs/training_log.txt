@@ -1,0 +1,67 @@
+\Users\guest user\Desktop\code> python new.py
+2026-05-02 15:31:21.966248: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-05-02 15:31:39.666050: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+======================================================================
+  FINAL PIPELINE — LR + RIDGE + RF + XGB + LGBM + BAGGING + MLP + LSTM + GRU + TRANSFORMER + TABNET + TABPFN
+======================================================================
+
+Train samples: 71928, Test samples: 17983
+Full dataset:  89911
+
+Linear Regression
+RMSE: 429.06
+MSE : 184090.32
+MAE : 355.02
+MAPE: 0.5734
+R2  : 0.8371
+
+Ridge
+RMSE: 479.22
+MSE : 229650.52
+MAE : 394.71
+MAPE: 0.5871
+R2  : 0.7968
+
+Random Forest
+RMSE: 23.17
+MSE : 536.84
+MAE : 12.41
+MAPE: 0.0189
+R2  : 0.9995
+
+XGBoost
+RMSE: 112.55
+MSE : 12667.19
+MAE : 81.37
+MAPE: 0.1052
+R2  : 0.9888
+
+LightGBM
+RMSE: 138.41
+MSE : 19155.96
+MAE : 102.07
+MAPE: 0.1385
+R2  : 0.9831
+
+Bagging
+RMSE: 52.38
+MSE : 2744.17
+MAE : 27.50
+MAPE: 0.0427
+R2  : 0.9976
+
+MLP
+RMSE: 301.03
+MSE : 90616.40
+MAE : 220.43
+MAPE: 0.2576
+R2  : 0.9198
+Stop training because you reached max_epochs = 200 with best_epoch = 196 and best_val_0_rmse = 0.00577
+
+TabNet
+RMSE: 10.77
+MSE : 115.90
+MAE : 7.81
+MAPE: 0.0094
+R2  : 0.9999
+Traceback (most recent call last):
