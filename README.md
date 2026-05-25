@@ -14,7 +14,7 @@
 <p>
   <img src="https://img.shields.io/badge/Python-3.9+-2e7d32?style=flat-square&logo=python&logoColor=2e7d32&labelColor=e8f5e9" />
   <img src="https://img.shields.io/badge/Deep_Learning-LSTM_%7C_GRU_%7C_Transformer-43a047?style=flat-square&logo=pytorch&logoColor=43a047&labelColor=e8f5e9" />
-  <img src="https://img.shields.io/badge/Best_Model-TabNet_R²=0.9999-66bb6a?style=flat-square&labelColor=e8f5e9" />
+  <img src="https://img.shields.io/badge/Best_Model-TabNet_R²=0.9938-66bb6a?style=flat-square&labelColor=e8f5e9" />
   <img src="https://img.shields.io/badge/Status-Research_Ready-2e7d32?style=flat-square&labelColor=e8f5e9" />
 </p>
 
